@@ -1,0 +1,8 @@
+com\Pageobject\AddReview\AddReview.class
+com\Pageobject\Login\InValidLogin.class
+com\Axis\BaseConfig\Automation_BaseConfig.class
+com\Pageobject\Login\ValidLogin.class
+com\Pageobject\Search\SearchFunctionality.class
+com\Pageobject\Register\RegisterPage.class
+com\Axis\BaseConfig\AutomationGrid.class
+com\Pageobject\RemoveProduct\RemoveProduct.class

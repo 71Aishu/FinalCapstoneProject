@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 1,202.984 s <<< FAILURE! - in TestSuite
+Axis.CapstoneProject.CapstoneTestCases.setupMethod  Time elapsed: 71.89 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Timed out waiting for driver server to bind the port.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown 
+Host info: host: 'DESKTOP-HR87NGL', ip: '192.168.88.138'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HR87NGL', ip: '192.168.88.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.node.remote.RemoteNode, lineNumber=150, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=startSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=645, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=564, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handleNewSessionRequest, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=818, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$run$1, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=779, classLoaderName=app}, {fileName=ThreadPoolExecutor.java, moduleVersion=20.0.1, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1144, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=20.0.1, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=642, classLoaderName=null}, {fileName=Thread.java, moduleVersion=20.0.1, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=1623, classLoaderName=null}]
+	at Axis.CapstoneProject.CapstoneTestCases.setupMethod(CapstoneTestCases.java:22)
+
+Axis.CapstoneProject.CapstoneTestCases.setupMethod  Time elapsed: 1,201.85 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown error has occurred
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HR87NGL', ip: '192.168.88.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ROHITH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.88.138:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15e7cb14e52842864a7e6e10b29e4845
+	at Axis.CapstoneProject.CapstoneTestCases.setupMethod(CapstoneTestCases.java:22)
+

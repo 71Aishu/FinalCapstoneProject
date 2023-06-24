@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="MicrosoftEdge Test(failed)">
+    <parameter name="Port" value="6666"/>
+    <classes>
+      <class name="Axis.CapstoneProject.LoginTC">
+        <methods>
+          <include name="Scenarios"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.LoginTC -->
+      <class name="Axis.CapstoneProject.SearchTC">
+        <methods>
+          <include name="Scenarios"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.SearchTC -->
+      <class name="Axis.CapstoneProject.RemoveProductTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.RemoveProductTC -->
+      <class name="Axis.CapstoneProject.RegisterTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.RegisterTC -->
+      <class name="Axis.CapstoneProject.AddReviewTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.AddReviewTC -->
+    </classes>
+  </test> <!-- MicrosoftEdge Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="Port" value="5555"/>
+    <classes>
+      <class name="Axis.CapstoneProject.LoginTC">
+        <methods>
+          <include name="Scenarios"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.LoginTC -->
+      <class name="Axis.CapstoneProject.RemoveProductTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.RemoveProductTC -->
+      <class name="Axis.CapstoneProject.RegisterTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.RegisterTC -->
+      <class name="Axis.CapstoneProject.AddReviewTC">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="Scenarios"/>
+        </methods>
+      </class> <!-- Axis.CapstoneProject.AddReviewTC -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
